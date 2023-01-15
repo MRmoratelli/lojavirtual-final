@@ -30,7 +30,7 @@ const Login = ({ setCurrentRoute }) => {
                                 height: '80px',
                                 width: 'auto',
                                 padding: '15px 0'
-                            }} src={logo}/>
+                            }} src={logo} alt="description of"/>
                             <Typography variant="h4" component="h1" gutterBottom>Entrar</Typography>
                         </Box>
                         <TextField

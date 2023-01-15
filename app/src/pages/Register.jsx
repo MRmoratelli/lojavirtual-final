@@ -32,7 +32,7 @@ const Register = ({ setCurrentRoute }) => {
                                 height: '80px',
                                 width: 'auto',
                                 padding: '15px 0'
-                            }} src={logo}/>
+                            }} src={logo} alt="description of"/>
                             <Typography variant="h4" component="h1" gutterBottom>Registrar</Typography>
                         </Box>
                         <TextField

@@ -54,7 +54,7 @@ function AppBarCustom() {
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Box sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }}>
-            <img style={styleImg} src={logo}/>
+            <img style={styleImg} src={logo} alt="description of"/>
           </Box>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
@@ -100,7 +100,7 @@ function AppBarCustom() {
             </Menu>
           </Box>
           <Box sx={{ display: { xs: 'flex', md: 'none', flexGrow: 1 }, mr: 1 }}>
-              <img style={styleImg} src={logo}/>
+              <img style={styleImg} src={logo} alt="description of"/>
           </Box>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
